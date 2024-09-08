@@ -53,14 +53,18 @@ export default function Component() {
                         subtitle="10% chance"
                     />
                 </MetricDashboardGroup>
-
+                
+                <TitleComponent
+                    title="Insights"
+                    textAlign="center"
+                />
                 <ScrollGalleryGroup
                     aspectRatio="landscape"
                     style="outlined"
                     size="md"
                 >
                     <ScrollGalleryItem
-                        title="Crop Prediction"
+                        title="Weather alerts"
                         subtitle="Expected yield: 1500 lbs/acre"
                         imageDescription="Graph showing crop yield predictions"
                         imageSrc="https://file.rendit.io/n/vQA16pIzjx.png"
@@ -71,11 +75,41 @@ export default function Component() {
                         imageDescription="Graph showing market price trends"
                         imageSrc="https://file.rendit.io/n/X8c2KAMG3z.png"
                     />
+                    {/* <ScrollGalleryItem
+                        title="Crop Price Prediction"
+                        subtitle="Expected yield: 1500 lbs/acre"
+                        imageDescription="Graph showing crop yield predictions"
+                        imageSrc="https://file.rendit.io/n/vQA16pIzjx.png"
+                    /> */}
+                    <ScrollGalleryItem
+                        title="Feritilizer Recommandation"
+                        subtitle="Get best recommanded Feritilizers for your crop"
+                        imageDescription="Graph showing crop yield predictions"
+                        imageSrc="https://file.rendit.io/n/X8c2KAMG3z.png"
+                    />
+                    <ScrollGalleryItem
+                        title="Crop Price Prediction"
+                        subtitle="Get future crop prices"
+                        imageDescription="Graph showing crop yield predictions"
+                        imageSrc="https://file.rendit.io/n/vQA16pIzjx.png"
+                    />
+                    <ScrollGalleryItem
+                        title="Crop Health Analysis"
+                        subtitle="Get your crop a CheckUp"
+                        imageDescription="Graph showing crop yield predictions"
+                        imageSrc="https://file.rendit.io/n/X8c2KAMG3z.png"
+                    />
+                    <ScrollGalleryItem
+                        title="Daily Blogs"
+                        subtitle="Get Latest news"
+                        imageDescription="Graph showing crop yield predictions"
+                        imageSrc="https://file.rendit.io/n/vQA16pIzjx.png"
+                    />
                 </ScrollGalleryGroup>
+{/* 
+                <TitleComponent title="Insights" textAlign="left" /> */}
 
-                <TitleComponent title="Insights" textAlign="left" />
-
-                <ContentTilesGroup>
+                {/* <ContentTilesGroup>
                     <ContentTilesItem
                         title="Weather Alerts"
                         subtitle="Stay updated with real-time alerts"
@@ -94,7 +128,7 @@ export default function Component() {
                         icon="analytics"
                         IconElement={NotebookIcon}
                     />
-                </ContentTilesGroup>
+                </ContentTilesGroup> */}
 
                 {/* <BottomAppBar
         showText={true}

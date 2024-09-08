@@ -53,7 +53,7 @@ export default function Component() {
           </TabsContent>
         </Tabs>
       </div>
-      <div className="relative flex flex-col justify-center items-center text-center bg-green-400 text-black p-8">
+      <div className="relative flex flex-col justify-center items-center text-center bg-green-400 text-black ">
         <h1>About us</h1>
         <p>
           This website helps farmers by predicting crop prices, detecting
