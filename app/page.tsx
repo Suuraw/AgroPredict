@@ -9,7 +9,7 @@ export default function Component() {
   return (
     <div className="relative mb-16 mt-4 flex flex-col overflow-hidden rounded-lg bg-background">
       <Tabs defaultValue="1" className="w-full">
-        <TabsList className="fixed inset-x-0 bottom-0 z-20 h-auto border-t py-4">
+        <TabsList className="fixed inset-x-0 bottom- z-20 h-auto border-t py-4">
           <TabsTrigger value="1">Verify Location</TabsTrigger>
           <TabsTrigger value="2">DashBoard</TabsTrigger>
           <TabsTrigger value="3">Fertilizer Recommanendation</TabsTrigger>
