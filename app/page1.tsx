@@ -32,7 +32,7 @@ export default function Component() {
       
       <ButtonComponent title="Predict Price" style="primary" />
       
-      <BottomAppBar
+      {/* <BottomAppBar
         showText={true}
         selectedIndex={0}
         actions={[
@@ -57,7 +57,7 @@ export default function Component() {
             IconElement: CableIcon,
           },
         ]}
-      />
+      /> */}
     </>
   );
 }

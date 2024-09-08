@@ -38,7 +38,7 @@ export default function Component() {
         size="lg" 
       />
       
-      <BottomAppBar
+      {/* <BottomAppBar
         showText={true}
         selectedIndex={1}
         actions={[
@@ -63,7 +63,7 @@ export default function Component() {
             IconElement: CableIcon,
           },
         ]}
-      />
+      /> */}
     </>
   );
 }

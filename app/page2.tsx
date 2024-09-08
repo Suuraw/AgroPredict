@@ -33,7 +33,7 @@ export default function Component() {
       
       <ButtonComponent title="Analyze" style="primary" />
       
-      <BottomAppBar
+      {/* <BottomAppBar
         showText={true}
         selectedIndex={0}
         actions={[
@@ -58,7 +58,7 @@ export default function Component() {
             IconElement: CableIcon,
           },
         ]}
-      />
+      /> */}
     </>
   );
 }

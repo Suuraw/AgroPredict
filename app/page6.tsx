@@ -73,7 +73,7 @@ export default function Component() {
         />
       </ContentTilesGroup>
       
-      <BottomAppBar
+      {/* <BottomAppBar
         showText={true}
         selectedIndex={0}
         actions={[
@@ -93,7 +93,7 @@ export default function Component() {
             IconElement: SettingsIcon,
           },
         ]}
-      />
+      /> */}
     </>
   );
 }
