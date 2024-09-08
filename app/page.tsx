@@ -29,7 +29,7 @@ export default function Component() {
               Crop Price Detection
             </TabsTrigger>
             <TabsTrigger value="6" className="tab-trigger">
-              Crop Health Analysis
+              Crop Prediction
             </TabsTrigger>
           </TabsList>
           {/* Tabs Content */}
@@ -53,15 +53,16 @@ export default function Component() {
           </TabsContent>
         </Tabs>
       </div>
-      <div className="relative flex flex-col justify-center items-center text-center bg-green-400 text-black ">
-        <h1>About us</h1>
-        <p>
-          This website helps farmers by predicting crop prices, detecting
-          diseases, and analyzing soil fertility. Our aim is to empower farmers
-          with the tools and information they need to make informed decisions
-          and maximize their yield.
-        </p>
-      </div>
+      {/* <div className="relative flex flex-col justify-center items-center text-center bg-green-400 text-black pt-8">
+    <h1>About us</h1>
+    <p>
+        This website helps farmers by predicting crop prices, detecting
+        diseases, and analyzing soil fertility. Our aim is to empower farmers
+        with the tools and information they need to make informed decisions
+        and maximize their yield.
+    </p>
+</div> */}
+
     </>
   );
 }
