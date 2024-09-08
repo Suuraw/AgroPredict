@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(font.className, " bg-muted flex flex-col items-center p-8")}>
+      <body className={cn(font.className, " bg-muted flex flex-col items-center")}>
         <div className="flex flex-col justify-stretch rounded-lg">{children}</div>
       </body>
     </html>

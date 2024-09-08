@@ -7,38 +7,55 @@ import Page5 from "./page5";
 import Page6 from "./page6";
 
 export default function Component() {
-  return (
-    <div className="relative mb-16 mt-4 flex flex-col overflow-hidden rounded-lg bg-background">
-      <Tabs defaultValue="1" className="w-full">
-        {/* Tabs List */}
-        <TabsList className="sticky top-0 z-20 bg-background border-b py-2 flex gap-4">
-          <TabsTrigger value="1" className="tab-trigger">Verify Location</TabsTrigger>
-          <TabsTrigger value="2" className="tab-trigger">Dashboard</TabsTrigger>
-          <TabsTrigger value="3" className="tab-trigger">Fertilizer Recommendation</TabsTrigger>
-          <TabsTrigger value="4" className="tab-trigger">Disease Detection</TabsTrigger>
-          <TabsTrigger value="5" className="tab-trigger">Crop Price Detection</TabsTrigger>
-          <TabsTrigger value="6" className="tab-trigger">Crop Health Analysis</TabsTrigger>
-        </TabsList>
-        {/* Tabs Content */}
-        <TabsContent value="1" className="p-4">
-          <Page5 />
-        </TabsContent>
-        <TabsContent value="2" className="p-4">
-          <Page6 />
-        </TabsContent>
-        <TabsContent value="3" className="p-4">
-          <Page3 />
-        </TabsContent>
-        <TabsContent value="4" className="p-4">
-          <Page4 />
-        </TabsContent>
-        <TabsContent value="5" className="p-4">
-          <Page1 />
-        </TabsContent>
-        <TabsContent value="6" className="p-4">
-          <Page2 />
-        </TabsContent>
-      </Tabs>
-    </div>
-  );
+    return (
+        <>
+            <div className="relative w-screen flex flex-col overflow-hidden rounded-lg bg-background">
+                <Tabs defaultValue="1" className="w-full">
+                    {/* Tabs List */}
+                    <TabsList className="sticky top-0 z-20 bg-background border-b flex gap-4 p-8">
+                        <TabsTrigger value="1" className="tab-trigger">
+                            Verify Location
+                        </TabsTrigger>
+                        <TabsTrigger value="2" className="tab-trigger">
+                            Dashboard
+                        </TabsTrigger>
+                        <TabsTrigger value="3" className="tab-trigger">
+                            Fertilizer Recommendation
+                        </TabsTrigger>
+                        <TabsTrigger value="4" className="tab-trigger">
+                            Disease Detection
+                        </TabsTrigger>
+                        <TabsTrigger value="5" className="tab-trigger">
+                            Crop Price Detection
+                        </TabsTrigger>
+                        <TabsTrigger value="6" className="tab-trigger">
+                            Crop Health Analysis
+                        </TabsTrigger>
+                    </TabsList>
+                    {/* Tabs Content */}
+                    <TabsContent value="1" className="p-4">
+                        <Page5 />
+                    </TabsContent>
+                    <TabsContent value="2" className="p-4">
+                        <Page6 />
+                    </TabsContent>
+                    <TabsContent value="3" className="p-4">
+                        <Page3 />
+                    </TabsContent>
+                    <TabsContent value="4" className="p-4">
+                        <Page4 />
+                    </TabsContent>
+                    <TabsContent value="5" className="p-4">
+                        <Page1 />
+                    </TabsContent>
+                    <TabsContent value="6" className="p-4">
+                        <Page2 />
+                    </TabsContent>
+                </Tabs>
+            </div>
+            <div className="relative w-screen bottom-0 bg-black text-white border-b flex gap-4 p-8">
+                About Us
+            </div>
+        </>
+    );
 }

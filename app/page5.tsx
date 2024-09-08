@@ -8,28 +8,30 @@ import { useState, useEffect, useRef } from "react";
 export default function Component() {
     return (
         <>
-            <TopAppBar
-                title="AgroPredict Dashboard"
-                leading={{
-                    type: "icon",
-                    icon: "menu",
-                    IconElement: MenuIcon,
-                }}
-                mode="sm"
-            />
+            <div className="h-screen">
+                <TopAppBar
+                    title="AgroPredict Dashboard"
+                    leading={{
+                        type: "icon",
+                        icon: "menu",
+                        IconElement: MenuIcon,
+                    }}
+                    mode="sm"
+                />
 
-            <TitleComponent
-                title="Location Verification"
-                size="lg"
-                textAlign="center"
-            />
+                <TitleComponent
+                    title="Location Verification"
+                    size="lg"
+                    textAlign="center"
+                />
 
-            <MapsComponent
-                imageDescription="Interactive map for farm location verification"
-                imageSrc="https://file.rendit.io/n/Zekx8qLXlL.png"
-            />
+                <MapsComponent
+                    imageDescription="Interactive map for farm location verification"
+                    imageSrc="https://file.rendit.io/n/Zekx8qLXlL.png"
+                />
 
-            <ButtonComponent title="Verify Location" style="primary" />
+                <ButtonComponent title="Verify Location" style="primary" />
+            </div>
         </>
     );
 }
