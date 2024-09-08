@@ -19,7 +19,7 @@ export default function Component() {
           icon: "menu",
           IconElement: MenuIcon,
         }}
-        mode="lg"
+        mode="sm"
       />
       
       <ChipGroup wrapMode="scroll" style="filled">

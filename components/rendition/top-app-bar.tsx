@@ -39,7 +39,7 @@ export const TopAppBar: React.FC<TopAppBarProps> = ({
 
   if (isCompact) {
     return (
-      <div className="flex w-full items-center justify-between p-4 text-foreground">
+      <div className="flex w-screen items-center justify-between p-4 text-foreground">
         {leading?.type === "icon" ? (
           wrapButton(renderIcon(leading, "w-5 h-5"))
         ) : (

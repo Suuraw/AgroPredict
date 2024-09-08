@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn(font.className, " bg-muted flex flex-col items-center p-8")}>
-        <div className="max-w-[400px] flex flex-col justify-stretch rounded-lg">{children}</div>
+        <div className="flex flex-col justify-stretch rounded-lg">{children}</div>
       </body>
     </html>
   );
